@@ -1,1 +1,3 @@
 Here is some stuff I wrote on Jan 8th. 10:45 am
+
+Remember to type in open space bar . To open newest file in the terminal
