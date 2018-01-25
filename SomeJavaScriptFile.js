@@ -13,7 +13,20 @@ window.onload = function() {
 	
 	// The only thing were doing right now is displaying a message, when the page loads.
 	
-	alert("yo");
+
+
+
+
+
+
+	/////////////  Do work below  ///////////
+
+	var someVariableName = 5;
+	var anotherVariableName = 3;
+
+	var aThirdVariable = someVariableName + anotherVariableName;
 	
+
+	alert(aThirdVariable);
 	
 }
