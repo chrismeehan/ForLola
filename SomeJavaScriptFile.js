@@ -19,7 +19,7 @@ window.onload = function() {
 
 
 
-	/////////////  Do work below  ///////////
+	/////////////  Assignment #1  ///////////
 
 	var someVariableName = 5;
 	var anotherVariableName = 3;
@@ -30,5 +30,16 @@ window.onload = function() {
 	var aFourthVariable = aThirdVariable + 1;    // This will equal 9.
 
 	alert(aFourthVariable);
+	
+	
+	
+	
+	
+	/// Assignment #2 //////////
+	
+	var yearlyIncome = 50000;
+	var yearsWorked = 40;
+	
+	var totalAmountEarnedInLife = ?	
 	
 }
