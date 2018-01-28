@@ -40,6 +40,7 @@ window.onload = function() {
 	var moneyThisYear = 50000;
 	var moneyLastYear = 40000;
 	
-	var totalMoneyFromBothYears;
+	var totalMoneyFromBothYears = moneyThisYear + moneyLastYear;
+	alert(totalMoneyFromBothYears);
 	
 }
