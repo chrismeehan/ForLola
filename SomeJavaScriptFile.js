@@ -37,9 +37,9 @@ window.onload = function() {
 	
 	/// Assignment #2 //////////
 	
-	var yearlyIncome = 50000;
-	var yearsWorked = 40;
+	var moneyThisYear = 50000;
+	var moneyLastYear = 40000;
 	
-	var totalAmountEarnedInLife = ?	
+	var totalMoneyFromBothYears;
 	
 }
