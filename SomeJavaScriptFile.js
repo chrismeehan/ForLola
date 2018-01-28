@@ -23,10 +23,12 @@ window.onload = function() {
 
 	var someVariableName = 5;
 	var anotherVariableName = 3;
+	var aFourthVariable = 9
+
 
 	var aThirdVariable = someVariableName + anotherVariableName;
 	
 
-	alert(aThirdVariable);
+	alert(aFourthVariable);
 	
 }
