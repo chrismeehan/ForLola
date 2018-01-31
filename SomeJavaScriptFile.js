@@ -12,10 +12,6 @@ window.onload = function() {
 	
 	
 	// The only thing were doing right now is displaying a message, when the page loads.
-	
-
-
-
 
 
 
@@ -33,14 +29,34 @@ window.onload = function() {
 	
 	
 	
-	
-	
-	/// Assignment #2 //////////
+	//////////// Assignment #2 //////////
 	
 	var moneyThisYear = 50000;
 	var moneyLastYear = 40000;
 	
 	var totalMoneyFromBothYears = moneyThisYear + moneyLastYear;
 	alert(totalMoneyFromBothYears);
+
+
+	//////////// Assignment #3 ///
+	
+	var  yearsUntilRetirement = 35;	// Because I want to retire in 35 not 40 years. 
+
+	var totalMoneyMade = moneyThisYear * yearsUntilRetirement;
+
+	alert(totalMoneyMade);
+
+	//////////// Assignment #4 ///
+	
+	for (x=0; x<10; x++){
+		document.write(“I liked watching thenewboston tutorial on this subject <br/>”);
+	}
+
+	var myList = [‘Apples’, ‘Oranges’, ‘Bananas’];
+	for (var I=0; i < myList.length; I++) {
+	alert(‘You have’+myList[I]+’in your basket’); 
+	////As you can see from this example I also really like learn code.academy as well. Wait, why can I not see this alert in the html file?
+	}
+
 	
 }
