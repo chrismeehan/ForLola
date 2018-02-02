@@ -25,7 +25,7 @@ window.onload = function() {
 	
 	var aFourthVariable = aThirdVariable + 1;    // This will equal 9.
 
-	alert(aFourthVariable);
+// 	alert(aFourthVariable);
 	
 	
 	
@@ -35,7 +35,7 @@ window.onload = function() {
 	var moneyLastYear = 40000;
 	
 	var totalMoneyFromBothYears = moneyThisYear + moneyLastYear;
-	alert(totalMoneyFromBothYears);
+// 	alert(totalMoneyFromBothYears);
 
 
 	//////////// Assignment #3 ///
@@ -44,7 +44,7 @@ window.onload = function() {
 
 	var totalMoneyMade = moneyThisYear * yearsUntilRetirement;
 
-	alert(totalMoneyMade);
+// 	alert(totalMoneyMade);
 
 	//////////// Assignment #4 ///
 	
@@ -53,10 +53,33 @@ window.onload = function() {
 	}
 
 	var myList = [‘Apples’, ‘Oranges’, ‘Bananas’];
+	var someNum = 0;
 	for (var I=0; i < myList.length; I++) {
-	alert(‘You have’+myList[I]+’in your basket’); 
+	someNum = sumNum + 1;
 	////As you can see from this example I also really like learn code.academy as well. Wait, why can I not see this alert in the html file?
 	}
+	
+
+
+
+	//     #1 -  I commented out the other alerts from the other Assignments.   They were just getting in our way.    
+	//          Maybe from here on, we just keep moving the alert down to the current assignment instead of having a bunch.
+	
+	//     #2 -  There are a few problems here.     One of them is your for loop.    There is a variable with a capital "I", then you use a smaller "i".
+	          // Those need to be consistent  (I would use a lower case "i", because its a var, and you should name vars with a lowercase)
+	          
+	          
+	       //   #3  -   For some reason the JS doesnt like your '' you use around the names of the fruit.   You can also
+	          
+	var listOfFruits = ["Apples", "Oranges", "Bananas"];
+	var numberOfFruits = 0;
+	for (var I=0; I < listOfFruits.length; I++) {
+	     numberOfFruits = numberOfFruits + 1;
+	////As you can see from this example I also really like learn code.academy as well. Wait, why can I not see this alert in the html file?
+	}
+	
+	alert("There were " + numberOfFruits + " fruits.");
+
 
 	
 }
