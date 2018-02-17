@@ -47,18 +47,14 @@ window.onload = function() {
 // 	alert(totalMoneyMade);
 
 	//////////// Assignment #4 ///
-	
-	for (x=0; x<10; x++){
-		document.write(“I liked watching thenewboston tutorial on this subject <br/>”);
-	}
-
-	var myList = [‘Apples’, ‘Oranges’, ‘Bananas’];
-	var someNum = 0;
-	for (var I=0; i < myList.length; I++) {
-	someNum = sumNum + 1;
-	////As you can see from this example I also really like learn code.academy as well. Wait, why can I not see this alert in the html file?
-	}
-	
+// 	
+// 	var myList = ["Apples", "Oranges", "Bananas"];
+// 	var someNum = 0;
+// 	for (var I=0; i < myList.length; I++) {
+// 	someNum = sumNum + 1;
+// 	////As you can see from this example I also really like learn code.academy as well. Wait, why can I not see this alert in the html file?
+// 	}
+// 	
 
 
 
@@ -78,7 +74,23 @@ window.onload = function() {
 	////As you can see from this example I also really like learn code.academy as well. Wait, why can I not see this alert in the html file?
 	}
 	
-	alert("There were " + numberOfFruits + " fruits.");
+	
+	
+	
+		//////////// Assignment #9 ///
+
+	
+	var listOfClientsDeposits = [44,677,34,244,8,2421,54,12,22,33];
+	var totalOfAllDeposits = 0;
+	
+	// Start your program here
+	
+
+
+	
+	// End your program here
+	
+	alert("The total amount of deposits for today is: " + totalOfAllDeposits);
 
 
 	
