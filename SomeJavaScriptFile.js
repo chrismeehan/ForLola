@@ -85,6 +85,9 @@ window.onload = function() {
 	
 	// Start your program here
 	
+	for (var index = 0 ; index < listOfClientsDeposits.length ; index++) {
+		totalOfAllDeposits = totalOfAllDeposits + listOfClientsDeposits[index];
+	}
 
 
 	
