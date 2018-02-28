@@ -83,18 +83,33 @@ window.onload = function() {
 	var listOfClientsDeposits = [44,677,34,244,8,2421,54,12,22,33];
 	var totalOfAllDeposits = 0;
 	
-	// Start your program here
 	
 	for (var index = 0 ; index < listOfClientsDeposits.length ; index++) {
 		totalOfAllDeposits = totalOfAllDeposits + listOfClientsDeposits[index];
 	}
 
 
-	
-	// End your program here
-	
-	alert("The total amount of deposits for today is: " + totalOfAllDeposits);
 
 
+
+	//////////// Assignment #10 ///
 	
+	// Below are 2 strings. Your boss you to concatenate (meaning put together) the 2 strings into 1. Starting with aString's value and ending with anotherString's value
+	// Then print out this new 1 string.    The new string needs to be created, and notice the alert is already attempting to print it out.    Good luck.	
+
+
+	var aString = "To be or not to "
+	var anotherString = "be, that is the question."
+	
+
+	// Start your programming here.
+	
+	
+	// End your programming here.
+	
+	alert("Here is a famous quote: " + aThirdString);
+
+
+
+
 }
