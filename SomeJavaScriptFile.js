@@ -108,7 +108,7 @@ window.onload = function() {
 
 	// Start your programming here.
 	
-	var aThirdString = try something else here;
+	var aThirdString = aString + anotherString;
 	
 	// End your programming here.
 	
