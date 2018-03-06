@@ -98,13 +98,17 @@ window.onload = function() {
 	// Then print out this new 1 string.    The new string needs to be created, and notice the alert is already attempting to print it out.    Good luck.	
 
 
+	// New rule:    You are not allowed to re-type the strings, like you did.      But you did good by realizing you need to create a var called aThirdString.
+
+
+
 	var aString = "To be or not to "
 	var anotherString = "be, that is the question."
 	
 
 	// Start your programming here.
 	
-	var aThirdString = "To be or not to " + "be, that is the question."
+	var aThirdString = try something else here;
 	
 	// End your programming here.
 	
