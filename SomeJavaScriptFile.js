@@ -104,6 +104,7 @@ window.onload = function() {
 
 	// Start your programming here.
 	
+	var aThirdString = "To be or not to " + "be, that is the question."
 	
 	// End your programming here.
 	
