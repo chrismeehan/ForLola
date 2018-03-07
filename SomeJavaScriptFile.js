@@ -163,33 +163,37 @@ window.onload = function() {
 	
 		// Switch is the exacty same as "if   else if    else if    else if     else".      This is just cleaner.
 	
+	var fruit = 'apple'
+	
      switch (fruit) {
        case 'banana': 
-       doSomething(); 
-       break;
+//        makeBananaSplit(); 
+       break; // Break means "get out of this switch now"
             
        case 'apple':
-       doSomethingElse();
+//        makeApplePie();
        break;      
         
      }
 
+	var isLolaHomeToday = true;
+	var isJacobHomeToday = false;
 	
 	//    Two upward lines || means "or".
 	if ( isLolaHomeToday || isJacobHomeToday ) {
-	     tellMomWeDontNeedABabysitter();
+// 	     tellMomWeDontNeedABabysitter();
 	}
 	
 	
 	//    Two upward lines && means "and".
 	if ( isLolaHomeToday && isJacobHomeToday ) {
-	     doAFamilyTripToZoo();
+// 	     doAFamilyTripToZoo();
 	}
 	
 	// Negate (flip opposite)     Exclamatino on the left side reverses any boolean value.   Like saying "not"
 	
-	if (!isLolaHome) {
-	    bugBombTheHouse();
+	if (!isLolaHomeToday) {
+// 	    bugBombTheHouse();
 	}
 	
 	// Whitespace is either a "spacebar char",    could also be a "tab".
