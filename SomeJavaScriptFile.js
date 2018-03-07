@@ -112,9 +112,102 @@ window.onload = function() {
 	
 	// End your programming here.
 	
-	alert("Here is a famous quote: " + aThirdString);
+// 	alert("Here is a famous quote: " + aThirdString);
 
 
 
+	//////////// Assignment #11 ///
+
+	var depositsOfTheDay= ['133','155','45454'];
+	
+	// start program
+	
+	depositsOfTheDay.push('456');
+	
+	depositsOfTheDay.unshift('ffffgg');
+	
+	
+	
+	// Dictionary  (or i think JS calls it an "object"
+	
+	var aPerson = {"name":"Bob Manny","heightInFeet":6.2,"hairColor":"brown","sex":"male"};
+	
+	var hC = aPerson["hairColor"];
+	
+	
+	var hairColor = ""
+	dg.doDishes();
+	
+	
+	
+	
+	for (var index = 0 ; index < listOfClientsDeposits.length ; index++) {
+		totalOfAllDeposits = totalOfAllDeposits + listOfClientsDeposits[index];
+	}
+	
+	// This while loop does the EXACT same things as the for loop above.
+	var index = 0;
+	while (index < listOfClientsDeposits.length) {
+		totalOfAllDeposits = totalOfAllDeposits + listOfClientsDeposits[index];
+		index++;
+	}
+	
+	
+	
+	// CONDITIONALS   "if this" "then that"        LOGIC TIME
+	
+	
+	// Triple equals signs === mean "if the thing on the left and right are exactly the same, return true, otherwise return false"
+	if (1 === 1) {
+	   // This body will definatly run.
+	} else if (2 === 4) { // Evertyhing below will now be ignored and skipped
+	   
+	} else if (3 === 3) {
+	
+	} else {
+	   // This will never run
+	}
+	
+	
+	
+		// Switch is the exacty same as "if   else if    else if    else if     else".      This is just cleaner.
+	
+     switch (fruit) {
+       case “banana”: 
+       doSomething; 
+       break;
+            
+       case “apple”:
+       doSomething;
+       break;      
+        
+     }
+
+
+
+
+	
+	//    Two upward lines || means "or".
+	if ( isLolaHomeToday || isJacobHomeToday ) {
+	     tellMomWeDontNeedABabysitter();
+	}
+	
+	
+	//    Two upward lines && means "and".
+	if ( isLolaHomeToday && isJacobHomeToday ) {
+	     doAFamilyTripToZoo();
+	}
+	
+	// Negate (flip opposite)     Exclamatino on the left side reverses any boolean value.   Like saying "not"
+	
+	if (!isLolaHome) {
+	    bugBombTheHouse();
+	}
+	
+	
+	
+	
+	// Whitespace is either a "spacebar char",    could also be a "tab".
+	
 
 }
