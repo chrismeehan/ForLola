@@ -116,7 +116,7 @@ window.onload = function() {
 
 
 
-	//////////// Assignment #11 ///
+	//////////// VVVVVVVV       NOTES FROM MARCH 6 CONVERSTION        VVVVVVV ///
 
 	var depositsOfTheDay= ['133','155','45454'];
 	
@@ -124,21 +124,13 @@ window.onload = function() {
 	
 	depositsOfTheDay.push('456');
 	
-	depositsOfTheDay.unshift('ffffgg');
+	depositsOfTheDay.unshift('ffffgg'); // Add to the front
 	
 	
 	
 	// Dictionary  (or i think JS calls it an "object"
 	
-	var aPerson = {"name":"Bob Manny","heightInFeet":6.2,"hairColor":"brown","sex":"male"};
-	
-	var hC = aPerson["hairColor"];
-	
-	
-	var hairColor = ""
-	dg.doDishes();
-	
-	
+	var aPersonInTheFormOfADictionary = {"name":"Bob Manny","heightInFeet":6.2,"hairColor":"brown","sex":"male"};
 	
 	
 	for (var index = 0 ; index < listOfClientsDeposits.length ; index++) {
@@ -169,22 +161,18 @@ window.onload = function() {
 	}
 	
 	
-	
 		// Switch is the exacty same as "if   else if    else if    else if     else".      This is just cleaner.
 	
      switch (fruit) {
-       case “banana”: 
-       doSomething; 
+       case 'banana': 
+       doSomething(); 
        break;
             
-       case “apple”:
-       doSomething;
+       case 'apple':
+       doSomethingElse();
        break;      
         
      }
-
-
-
 
 	
 	//    Two upward lines || means "or".
@@ -204,10 +192,66 @@ window.onload = function() {
 	    bugBombTheHouse();
 	}
 	
-	
-	
-	
 	// Whitespace is either a "spacebar char",    could also be a "tab".
 	
+	
+	
+	
+       //////////////       ASSIGNMENT # 12
+       
+       // Make a program that appends (adds to the end) the numbers 7,8,9,10,11,12,13 to the END of this same array, without you typing those numbers in yourself.
+    var arrayOfNums = [1,2,3,4,5,6];
+    // Start program here
+    
+    
+    	
+       //////////////       ASSIGNMENT # 13
+       
+       // Make a program that appends (adds to the end) the numbers 1,2,3,4,5 to the BEGINNING of this same array, without you typing those numbers in yourself.
+    var anotherArrayOfNums = [6,7,8,9,10,11];
+    // Start program here
+    
+    
+    //////////////       ASSIGNMENT # 13
+    var arrayOfDaysIsJakeHome = [false,true,true,false,false,false,true];
+    var arrayOfDaysIsLolaHome = [false,false,false,true,false,true,true];
+
+    // Above is 2 arrays, representing days that Jake and Lola are schedualed to stay home for the day.  arrayOfDaysIsJakeHome[0] represents Monday,     so arrayOfDaysIsJakeHome[6] represents Sunday.
+    // Same for Lola's array.
+    
+    // Write a program that checks for days when both Jake AND Lola are home, so they can go to the zoo. 
+    // And make the var below hold how many days this week you guys are going to the zoo.
+    var daysTheyAreBothHome = 0;
+    // Start program here
+
+
+
+
+    //////////////       ASSIGNMENT # 14
+    
+    // Use the variables from Assignment #13, but this time, we want to check for days when Lola OR Jake stay home. And have the var below keep track of how many days that's true.  
+     var daysEitherAreHome = 0;
+         // Start program here
+
+     
+     
+         //////////////       ASSIGNMENT # 15
+    
+    // Use the variables from Assignment #13, but this time, we want to know days that NEITHER Jake NOR Lola will be home. In that case, just call some fake method: askMomToBabysit()
+    // Start program here
+
+
+
+
+         //////////////       ASSIGNMENT # 16
+         var hoursSpentPerDayJake = [6,2,8,5,3,5,7,3,2,4];
+         var hoursSpentPerDayLola = [3,5,7,5,2,4,6,2,2,5];
+         
+         // Lets say you and Jake have been spending time the last 10 days doing some task. And you've kept track of how many hours each of you spent per day.
+         // (For some reason), lets say Jake needs to know how many days did you and him both work the SAME AMOUNT OF HOURS.
+         // Keep track of how many days that's true in the var below.
+         
+         var howManyDaysWorkedSameAmountOfHours = 0;
+    // Start program here
 
 }
